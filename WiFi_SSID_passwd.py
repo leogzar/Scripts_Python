@@ -6,13 +6,6 @@ def ejecutar_comando(command):
         # Ejecutar el comando y capturar la salida
         resultado = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, shell=True)
 
-        # Imprimir la salida estándar y la salida de error
-        #print("Salida estándar:")
-        #print(resultado.stdout)
-
-        #print("\nSalida de error:")
-        #print(resultado.stderr)
-
         # Devolver la salida estándar y el código de salida
         return resultado.stdout, resultado.returncode
 
