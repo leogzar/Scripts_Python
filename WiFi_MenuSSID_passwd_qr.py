@@ -90,7 +90,7 @@ if codigo_salida_windows == 0:
                     else:
                         print(f"\nError al obtener el perfil {nombre_conexion}. Código de salida: {codigo_salida_perfil}")
                 else:
-                    print("\nOpción no válida. Por favor, ingrese un número válido.")
+                    print("\nOpción no válida. Por favor, ingresar un número válido.")
             else:
                 print("Saliendo del programa.")
                 break
