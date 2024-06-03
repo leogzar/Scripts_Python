@@ -18,6 +18,6 @@ diccionario2 = {5.1: 10 , "vocales":["a","e","i","o","u"], (7,2): 50}
 #Len
 print (len(diccionario2))
 
-#del
+#Del
 del (diccionario2[(7,2)])
 print (diccionario)
