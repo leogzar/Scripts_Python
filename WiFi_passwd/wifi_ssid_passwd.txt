@@ -1,0 +1,8 @@
+################################
+#Listado de perfiles y claves: #
+################################
+Perfil WiFi          Passwd              
+[Red 5.8]            [PassRed58]          
+[Red 2.4]            [PassRed24]          
+[Home 2.4 Ghz]       [PassHome24] 
+[Fibertel 5.8GHz]    [LongClavePSK]
